@@ -1,0 +1,240 @@
+
+<!-- 
+advance css properties :
+1. pointer-events:none (used in tooltip text where we doesnt want tooltip tex to mouse point ) 
+2.space-wrap : none (to adjust the space if some element is taking more than its defined space)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="yt_images/style.css">
+    <link rel="stylesheet" href="yt_header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+</head>
+<body> 
+    <!-- header section -->
+    <div class="header">
+
+            <div class="left">
+            <img src="yt_images/header1.svg" height= "24px" alt="" class="bar">
+            <img src="yt_images/header2.svg" height="22px" alt="" class="yt_logo">
+            </div>
+
+            <div class="center">
+                <input type="text" name="searchbar" id="searchbar" placeholder="Search">
+               
+               <button class="searchicon">
+                     <img src="yt_images/header3.svg" height="25px" alt=""> 
+                     <div class="tooltip">Search</div>
+               </button>
+               <button class="mic"> 
+                    <img src="yt_images/mic.svg" alt="" class="miconn" >
+               </button>
+            </div>
+
+            <div class="right">
+                <img src="yt_images/record.svg" width="30px" alt="" class="record">
+                <img src="yt_images/cube.svg" width="30px" alt="" class="cube">
+                <div class="bell">
+                    <img src="yt_images/bell.svg" width="30px" alt="" class="belll">
+                    <div class="bella">5</div>
+                </div>
+                <img src="yt_images/pfp.jpeg" width="30px" alt="" class="pfp">
+            </div>
+     </div> <!--header ends -->
+
+
+
+
+     <div class="sidebar">
+            <div class="sidebar_container">
+                    <img src="yt_images/home.svg" height="24px" alt="" >
+                <div>
+                    Home
+                </div>
+            </div>
+            <div class="sidebar_container">
+                <img src="yt_images/explore_logo.svg" height="24px" alt="">
+                <div>
+                    Explore
+                </div>     
+            </div>
+
+            <div class="sidebar_container">
+                <img src="yt_images/subscriptions_logo.svg" height="24px" alt="">
+                <div>
+                    Subscriptions
+                </div>     
+            </div>
+
+            <div class="sidebar_container">
+                <img src="yt_images/originals_logo.svg" height="24px" alt="">
+                <div>
+                    Originals
+                </div>     
+            </div>
+
+            <div class="sidebar_container">
+                <img src="yt_images/youtube-music.svg" height="24px" alt="">
+                <div>
+                    Youtube Music
+                </div>     
+            </div>
+
+            <div class="sidebar_container">
+                <img src="yt_images/library_logo.svg" height="24px" alt="">
+                <div>
+                    Liibrary
+                </div>     
+            </div>
+                 </div>
+
+
+
+
+
+    <div class="main">
+
+        <div class="deadpool">
+            <a href="https://www.youtube.com/watch?v=Idh8n5XuYIA">
+            <img src="yt_images/Deadpool.webp" alt="deadpool" class="deadpool1" >
+            </a>
+            <div class="time1">
+                3:20
+            </div>
+            <div class="marvel_logo">
+                <a href="https://www.youtube.com/@marvel">
+                <img src="yt_images/marvel_logo.jpg" alt="" class="m_logo" >
+            </a>
+            </div>
+            <div class="vdo_title1">
+                <h3>Deadpool&Wolverine|Final Trailer|In<br>Theaters July 26
+                </h3>
+            </div>
+            <div class="channel1">
+                <p>Marvel Entertainment &#10003;</p>
+            </div>
+            <div class="stats1">
+                <p>4.1M views &#46; 2 days ago</p>
+            </div>
+        </div>
+
+
+        <div class="upsc">
+            <img src="yt_images/upsc.webp" alt="upsc" class="upsc1">
+
+            <div class="time1">
+                10:43
+            </div>
+            <div class="upsc_logo">
+                <img src="yt_images/marvel_logo.jpg" alt="" class="u_logo" >
+            </div>
+
+            <div class="vdo_title2">
+                <h3>How to Start UPSC Preparation After <br>Class12th
+                </h3>
+            </div>
+
+            <div class="channel2">
+                <p>Physics Wallah PW </p>
+            </div>
+
+            <div class="stats2">
+                <p>220k views &#46; 10 months ago</p>
+            </div>
+            </div>
+
+
+        <div class="css1">
+            <img src="yt_images/cssbutton.webp" alt="" class="css11">
+
+            <div class="time1">
+                10:43
+            </div>
+        
+        <div class="css_logo">
+            <img src="yt_images/css_logo.png" alt="" class="c_logo" >
+        </div>
+
+        <div class="vdo_title3">
+            <h3>CSS Glowing Button - How to Design<br>GlowingWith Hover Effects[Pure CSS]
+            </h3>
+        </div>
+
+        <div class="channel3">
+            <p>Learn Code With Amit </p>
+        </div>
+
+        <div class="stats3">
+            <p>387 views &#46; 1 day ago</p>
+        </div>
+    </div>
+
+        <!-- 2nd row -->
+                <div class="css1">
+                    <img src="yt_images/cssbutton.webp" alt="" class="css11">
+                    
+                    <div class="css_logo">
+                        <img src="yt_images/css_logo.png" alt="" class="c_logo" >
+                    </div>
+
+                    <div class="vdo_title3">
+                        <h3>CSS Glowing Button - How to Design<br>GlowingWith Hover Effects[Pure CSS]
+                        </h3>
+                    </div>
+
+                    <div class="channel3">
+                        <p>Learn Code With Amit </p>
+                    </div>
+
+                    <div class="stats3">
+                        <p>387 views &#46; 1 day ago</p>
+                    </div>
+                </div>
+
+                <div class="deadpool">
+                    <img src="yt_images/Deadpool.webp" alt="deadpool" class="deadpool1">
+
+                        <div class="marvel_logo">
+                            <img src="yt_images/marvel_logo.jpg" alt="" class="m_logo" >
+                        </div>
+                        <div class="vdo_title1">
+                            <h3>Deadpool&Wolverine|Final Trailer|In<br>Theaters July 26
+                            </h3>
+                        </div>
+                        <div class="channel1">
+                            <p>Marvel Entertainment &#10003;</p>
+                        </div>
+                        <div class="stats1">
+                            <p>4.1M views &#46; 2 days ago</p>
+                        </div>
+                </div>
+
+                <div class="deadpool">
+                    <img src="yt_images/Deadpool.webp" alt="deadpool" class="deadpool1">
+
+                        <div class="marvel_logo">
+                            <img src="yt_images/marvel_logo.jpg" alt="" class="m_logo" >
+                        </div>
+                        <div class="vdo_title1">
+                            <h3>Deadpool&Wolverine|Final Trailer|In<br>Theaters July 26
+                            </h3>
+                        </div>
+                        <div class="channel1">
+                            <p>Marvel Entertainment &#10003;</p>
+                        </div>
+                        <div class="stats1">
+                            <p>4.1M views &#46; 2 days ago</p>
+                        </div>
+                </div>
+
+    </div> <!--main div-->>
+</body>
+</html>
